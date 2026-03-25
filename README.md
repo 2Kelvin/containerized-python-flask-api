@@ -1,2 +1,2 @@
 # containerized-springboot-api
-Containerizing a simple Java Springboot API using Docker
+Containerizing a simple Python Flask API using Docker
