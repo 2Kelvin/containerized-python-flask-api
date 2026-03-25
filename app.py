@@ -10,5 +10,5 @@ def hello_world():
     })
 
 if __name__ == '__main__':
-    # We use 0.0.0.0 so it's accessible outside the container
+    # used 0.0.0.0 so it's accessible outside the container
     app.run(host='0.0.0.0', port=5000)
