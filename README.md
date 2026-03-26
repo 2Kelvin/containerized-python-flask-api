@@ -3,13 +3,13 @@ Containerizing a simple Python Flask API using Docker
 
 Containerize a web app using `Docker` by building a Docker image for it first. Docker build syntax:
 ```bash
-# -t: image name tag
-# . --> means use the dockerfile in this folder
 docker build -t docker_username/app_name:app_version_tag .
 
 # Example
 docker build -t rocketman02/simple-flask-api:v1 .
 ```
+- -t: image name tag
+- . --> means use the dockerfile in this folder
 
 Once built, you can run a Docker containerized application of your app from the image by running:
 ```bash
