@@ -13,16 +13,16 @@ docker build -t rocketman02/simple-flask-api:v1 .
 
 Once built, you can run a Docker containerized application of your app from the image by running:
 ```bash
-# -d: free terminal from active container logs
-# --name: name of the newly to be created container
-# -p: port mapping
 docker run -d --name container_name -p hostPort:containerPort docker_app_image
 
 # Example
 docker run -d --name flask-api -p 5010:5000 rocketman02/simple-flask-api:v1
 ```
+- -d: free terminal from active container logs
+- --name: name of the newly to be created container
+- -p: port mapping
 
-You can push the built Docker image to docker hub for future reuse like so:
+You can push the built Docker image to docker hub for future use and for team collaboration like so:
 ```bash
 docker push rocketman02/simple-flask-api:v1 
 ```
